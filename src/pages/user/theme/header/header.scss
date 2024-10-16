@@ -1,0 +1,47 @@
+.header_top {
+    background-color: #E87428;
+}
+
+/* src/components/Header.scss */
+.header {
+    .user-options {
+        display: flex;
+        justify-content: flex-end;
+        ul {
+            a {
+                color: red;
+            }
+        }
+        span {
+            margin-left: 15px;
+            color: white;
+            cursor: pointer;
+        }
+    }
+    
+  
+    .logo img {
+      width: 120px;
+    }
+  
+    // .search-bar {
+    //   display: flex;
+  
+    //   input {
+    //     padding: 10px;
+    //     border: none;
+    //     border-radius: 5px;
+    //   }
+  
+    //   button {
+    //     padding: 10px;
+    //     background-color: #ffffff;
+    //     border: none;
+    //     cursor: pointer;
+    //     border-radius: 5px;
+    //   }
+    // }
+    // }
+}
+
+  
